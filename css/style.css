@@ -404,6 +404,6 @@ h5{
     cursor: pointer;
 }
 
-.pay-img{
-    background-color: #000;
+.pay-img:not(:last-child){
+    margin-right: 25px;
 }
