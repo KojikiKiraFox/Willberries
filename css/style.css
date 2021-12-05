@@ -17,6 +17,7 @@ html {
 
 a {
 	text-decoration: none;
+	transition: .3s;
 }
 
 .container {
@@ -29,6 +30,11 @@ a {
 	border: none;
 	background: none;
 	cursor: pointer;
+	transition: .3s;
+}
+
+.btn:hover{
+	box-shadow: 3px 3px 5px 0 rgb(70, 70, 70);
 }
 
 .btn--primary {
@@ -71,6 +77,18 @@ a {
 
 .menu__item:last-child {
 	margin-right: 30px;
+}
+
+@keyframes rgb {
+	to{
+		transform: rotate(360deg);
+	}
+}
+
+.logo__img:hover{
+	animation: rgb;
+	animation-duration: .3s;
+	animation-timing-function: linear;
 }
 
 
@@ -315,13 +333,28 @@ a {
 .new-top {
 	display: flex;
 	justify-content: space-between;
+}
 
+.new__top-right{
+	color: #262D33;
+}
+
+.new__top-right:hover{
+	text-decoration: underline;
 }
 
 .new__items {
 	display: flex;
 	justify-content: space-between;
 	margin: 30px 0 70px;
+}
+
+.new__item{
+	transition: .3s;
+}
+
+.new__item:hover{
+	transform: translateY(-20px);
 }
 
 .new__img {
@@ -334,6 +367,8 @@ a {
 	max-width: 263px;
 	width: 100%;
 }
+
+
 
 
 .new__content-text {
@@ -452,4 +487,16 @@ h5 {
 
 .pay-img:not(:last-child) {
 	margin-right: 25px;
+}
+
+.footer a:hover{
+	color: rgb(184, 184, 184);
+}
+
+.social-link{
+	transition: .3s;
+}
+
+.social-link:hover{
+	transform: translateY(-10px);
 }
