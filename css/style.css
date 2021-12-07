@@ -10,7 +10,7 @@
 html {
 	color: #4b5157;
 	font-family: 'Lato', sans-serif;
-	font-style: 14px;
+	font-size: 14px;
 	line-height: 20px;
 	/* font-family: 'Roboto', sans-serif;*/
 }
@@ -148,7 +148,7 @@ a {
 	padding: 5px 12px;
 	background-color: #3dc47e;
 	border-radius: 3px;
-	font-style: 12px;
+	font-size: 12px;
 	line-height: 15px;
 	color: #fff;
 	margin-bottom: 25px;
@@ -165,7 +165,7 @@ a {
 
 .hero__desc {
 	max-width: 335px;
-	font-style: 18px;
+	font-size: 18px;
 	line-height: 30px;
 	margin-bottom: 40px;
 }
@@ -270,7 +270,7 @@ a {
 .product-row__title {
 	max-width: 220px;
 	font-weight: bold;
-	font-style: 25px;
+	font-size: 25px;
 	line-height: 30px;
 	color: #262d33;
 	margin-bottom: 15px;
